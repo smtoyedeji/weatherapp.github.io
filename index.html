@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="widgets">
+        <div class="container" id="day-time-container">
+            <h2 id="todayTime">07:32AM</h2>
+            <h4 id="today">Wednesday 14 April, 2021</h4>
+            <div id="greeting">
+                <i class='fas fa-sun'></i>
+                <h5>Hello, Samuel!</h5>
+            </div>        
+        </div>
+        <div class="container" id="weather-widget1">
+            <span id="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <p id="location-name"></p>
+            </span>
+            <div class="cloud">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <h2 id="temperature">29C</h2>
+            <h4 id="summary">Sunny</h4>
+    
+            <div class="current">
+                <div class="weather-elements">
+                    <span class="elements"><i class="fas fa-wind"></i>Wind</span>
+                    <span class="elements"><i class="fas fa-tint"></i>Hum</span>
+                </div>
+                <div class="partition"></div>
+                <div class="weather-figure">
+                    <span id="windspeed">12km/hr</span>
+                    <span id="humidity-data">22%</span>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="weather-widget2">
+            <div id="sunrise">
+                <div class="image"><img src="sunrise.png" alt="" srcset=""></div>
+                <div class="content">
+                    <p>Sunrise</p>
+                    <span id="sunrise-time">4:30am</span>
+                </div>
+            </div>
+            <div id="sunset">
+                <div class="image"><img src="sunset.png" alt="" srcset=""></div>
+                <div class="content">
+                    <p>Sunset</p>
+                    <span id="sunset-time">6:53pm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/4c81140bd8.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

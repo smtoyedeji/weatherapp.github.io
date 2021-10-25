@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&family=Zen+Kurenaido&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: "Raleway", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 450px;
+    background-image: url("https://unsplash.com/photos/ZVhm6rEKEX8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8N3x8d2VhdGhlcnx8MHx8fHwxNjM1MTc5NTgz&force=true&w=1920");
+    
+}
+.widgets {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-top: 2em;
+    background: #e6eeff;
+    margin-bottom: 2em;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container {
+    width: 300px;
+    margin: 0 16px;
+    padding: 0 16px;
+    
+}
+
+#day-time-container {
+    color: #699bfe;
+    padding-top: 1em; 
+}
+
+.container h2 {
+    color: #699bfe;
+    font-size: 2.5em;
+}
+#date {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#greeting {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2em;
+    padding-top: 6px;
+}
+#greeting h5 {
+    margin-left: 0.8em;
+}
+
+#weather-widget1 {
+    background: #699bfe;
+    color: #ffffff;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+#location {
+    display: flex;
+    align-items: center; 
+    margin-left: 6px; 
+    font-size: 18px; 
+}
+#location-name p{
+    margin-left: 4px;
+}
+#temperature {
+    font-size: 5esm;
+    text-align: center;
+    color: #ffffff;
+}
+#weather-widget1 h4{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.cloud i {
+    display: block;
+    margin: 0 auto;
+    font-size: 240px;
+    text-align: center;
+}
+.current {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    display: flex;
+    margin: 15px;
+    height: fit-content;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+}
+#summary {
+    text-transform: capitalize;
+}
+.weather-elements, .weather-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;    
+}
+.weather-elements .elements {
+    display: flex;
+}
+
+span i {
+    margin-right: 10px;
+}
+.weather-elements span, .weather-figure span{
+    padding: 4px;
+}
+.partition {
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#weather-widget2 {
+    font-size: 1.1em;
+    background: #ffd1a1;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+#sunrise, #sunset {
+    display: flex;
+    margin-left: -16px;
+}
+
+#sunrise p, #sunset p{
+    color: #000;
+} 
+#sunrise span, #sunset span{
+    color: #699bfe;
+    font-weight: 800;
+} 
+.image img{
+    height: 50px;
+    background: transparent;
+}
